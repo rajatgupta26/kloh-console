@@ -36,6 +36,24 @@ class App extends React.Component {
           <Switch>
             <LayoutRoute
               exact
+              path="/classes"
+              layout={MainLayout}
+              component={ButtonPage}
+            />
+            <LayoutRoute
+              exact
+              path="/artists"
+              layout={MainLayout}
+              component={CardPage}
+            />
+            <LayoutRoute
+              exact
+              path="/venues"
+              layout={MainLayout}
+              component={WidgetPage}
+            />
+            {/* <LayoutRoute
+              exact
               path="/login"
               layout={EmptyLayout}
               component={props => (
@@ -49,7 +67,7 @@ class App extends React.Component {
               component={props => (
                 <AuthPage {...props} authState={STATE_SIGNUP} />
               )}
-            />
+            /> */}
             <LayoutRoute
               exact
               path="/login-modal"
@@ -62,7 +80,7 @@ class App extends React.Component {
               layout={MainLayout}
               component={DashboardPage}
             />
-            <LayoutRoute
+            {/* <LayoutRoute
               exact
               path="/buttons"
               layout={MainLayout}
@@ -151,7 +169,7 @@ class App extends React.Component {
               path="/register"
               layout={MainLayout}
               component={AuthPage}
-            />
+            /> */}
             <Redirect to="/" />
           </Switch>
         </GAListener>

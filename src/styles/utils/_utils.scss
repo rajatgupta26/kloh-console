@@ -40,7 +40,7 @@
 }
 
 .modal-backdrop-light {
-  background: map-get($map: $theme-colors, $key: light);
+  background: map-get($map: $theme-colors, $key: overlay-background-light);
   opacity: 1;
 
   &.modal-backdrop.show {
