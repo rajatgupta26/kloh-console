@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "http://kloh.in/precache-manifest.ae7d3f8a02889ac8ec936f13ad6a69d6.js"
+  "https://rajatgupta26.github.io/kloh-console/precache-manifest.9cedab55178ba444b04488693b6421cf.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("http://kloh.in/index.html", {
+workbox.routing.registerNavigationRoute("https://rajatgupta26.github.io/kloh-console/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
