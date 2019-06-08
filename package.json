@@ -2,7 +2,7 @@
   "name": "kloh-console",
   "version": "1.0.0",
   "private": false,
-  "homepage":"https://rajatgupta26.github.io/kloh-console",
+  "homepage": "https://rajatgupta26.github.io/kloh-console",
   "dependencies": {
     "bootstrap": "4.3.1",
     "chart.js": "2.7.2",
